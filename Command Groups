@@ -1,0 +1,20 @@
+/*
+AP CS Principles Command:
+GoTo(class.#120)
+Sitdown(myself.seat)
+DropBag(myself.bag)
+Race[LookArond(),FriendsSeated(friends.HENRY,friends.NHAN)]
+OpenLaptop(myself.chromebook)
+Conditional[if(TakeAttendance(teachers.WORSTSUBSITUTE)){
+  Race[StaySilent(),CallOut(myself.name)]
+  Respond()
+}]
+Conditional[if(TeacherLook(teachers.WORSTSUBSITUTE)){
+  Parallel[PutAwayCards(friends.NHAN.cards),DoSchoolwork(myself.chromebook)]
+}]
+PlayCards(myself,friends.NHAN.cards,friends.Henry)
+WaitUntil{
+  () -> BellRung
+}
+
+*/
